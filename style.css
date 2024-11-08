@@ -1,0 +1,35 @@
+.navbar {
+  top: 0;
+  z-index: 2000;
+  min-height: 70px;
+  position: sticky;
+}
+form {
+  text-align: right;
+}
+.form-group {
+  text-align: left;
+}
+#message {
+  resize: none;
+}
+.image {
+  margin-top: 10px;
+}
+.table-hover tbody tr:hover {
+  background-color: #929292;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.sticky-header tr th {
+  top: 70px;
+  position: sticky;
+  background-color: #afafaf;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+}
